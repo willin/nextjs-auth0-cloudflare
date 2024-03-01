@@ -12,9 +12,10 @@
     "deploy": "bun pages:build && wrangler pages deploy .vercel/output/static"
   },
   "dependencies": {
+    "next": "14.1.0",
+    "next-auth": "beta",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.1.0"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "1",
@@ -27,6 +28,7 @@
     "eslint-config-next": "14.1.0",
     "eslint-plugin-next-on-pages": "^1.9.0",
     "postcss": "^8",
+    "prettier": "^3.2.5",
     "tailwindcss": "^3.3.0",
     "typescript": "^5",
     "vercel": "^33.5.3",
