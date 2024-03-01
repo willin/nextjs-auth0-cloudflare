@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { auth } from '@/lib/auth';
 import { redirect } from 'next/navigation';
 
-// export const runtime = "edge";
+export const runtime = 'edge';
 
 export default async function DashBoard() {
   //get login session
